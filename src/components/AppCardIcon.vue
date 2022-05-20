@@ -2,7 +2,7 @@
   <div class="col mt-5">
       <div class="element-card">
           <div class="card-image">
-              <img :src="cardObj.poster" alt=""/>
+              <img :src="cardObj.poster" :alt="cardObj.title"/>
           </div>
           <h4 class="text-uppercase fw-bold mt-5 text-center">{{ cardObj.title }}</h4>
           <div class="card-info text-center">
